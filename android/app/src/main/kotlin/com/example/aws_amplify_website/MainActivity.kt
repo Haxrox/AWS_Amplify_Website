@@ -1,4 +1,4 @@
-package com.example.aws_amplify_website
+package com.example.flutter_website
 
 import io.flutter.embedding.android.FlutterActivity
 

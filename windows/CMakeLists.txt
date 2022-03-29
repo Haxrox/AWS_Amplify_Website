@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(aws_amplify_website LANGUAGES CXX)
+project(flutter_website LANGUAGES CXX)
 
-set(BINARY_NAME "aws_amplify_website")
+set(BINARY_NAME "flutter_website")
 
 cmake_policy(SET CMP0063 NEW)
 
