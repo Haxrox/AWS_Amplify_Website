@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../main.dart';
 
 class Page2 extends StatelessWidget {
   const Page2({Key? key}) : super(key: key);
@@ -8,17 +7,16 @@ class Page2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Second Route'),
+        title: const Text('Second Page'),
       ),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            // Navigate back to first route when tapped.
-            // Navigator.push(context, MaterialPageRoute(builder: (context) => MyHomePage()));
-          },
-          child: const Text('Go back!'),
-        ),
-      ),
+       body: const Center(child: const Text("Page 2 (testing Navigator)")),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.pop(context);
+        },
+        tooltip: 'Back',
+        child: const Icon(Icons.arrow_back),
+      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }

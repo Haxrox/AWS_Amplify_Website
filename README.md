@@ -1,4 +1,4 @@
-# aws_amplify_website
+# Firebase Hosting Flutter Website
 
 A new Flutter project.
 
