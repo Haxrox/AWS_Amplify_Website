@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.aws_amplify_website">
+    package="com.example.flutter_website">
    <application
-        android:label="aws_amplify_website"
+        android:label="flutter_website"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
